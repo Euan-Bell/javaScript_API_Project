@@ -7,4 +7,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const rickMorty = new RickMorty();
   rickMorty.getData();
+  // console.log(rickMorty.getData());
 });

@@ -12,7 +12,7 @@ RickMorty.prototype.getData = function () {
   const request = new Request('https://rickandmortyapi.com/api/');
   request.get((data) => {
     PubSub.publish('rick_morty:data-ready', data);
-    console.log('javaScript-Loaded');
+    console.log(data);
   });
 
 };
