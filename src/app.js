@@ -1,5 +1,5 @@
 const RickMorty = require('./models/rick_morty.js');
-const RickMortyInputView = require('./views/rick_morty_inputview.js');
+const RickMortyListView = require('./views/rick_morty_listview.js');
 
 document.addEventListener('DOMContentLoaded', () => {
   // const listContain = document.querySelector('#rickMorty-list');
